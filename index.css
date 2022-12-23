@@ -3,6 +3,16 @@ body {
     background-color: rgba(34, 189, 215, 0.1);
     ;
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .above-nav {
     background-color: #46b7d5;
@@ -171,6 +181,7 @@ body {
 
 /* Home panel */
 .Home_sign_up {
+    margin-top: 80px;
     background: #5DDEF6;
     width: 100%;
     overflow-x: hidden;
