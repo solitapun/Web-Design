@@ -7,6 +7,21 @@ body {
 .above-nav {
     background-color: #46b7d5;
 }
+.browse_above_nar{
+    margin-top: 80px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+    
 
 .row {
     margin: 0;
